@@ -1,5 +1,5 @@
 # yxx_admin
-myself python backstage
+#myself python backstage
 
 
 简介：
@@ -33,7 +33,7 @@ python web二次开发。
 
 
 
-
+~~~
 project  应用部署目录
 ├─apps                     应用目录（可设置）
 │  ├─admin				   后台模块文件目录
@@ -74,3 +74,4 @@ project  应用部署目录
 ├─exts.py                  防止循环引用的一个文件
 ├─manage.py                项目管理文件，可执行脚本命令 数据迁移等
 └─requirement.txt          pip拓展库  
+~~~
