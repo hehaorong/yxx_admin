@@ -22,7 +22,11 @@ from .config import menu
 @index_bp.before_request
 def before_request():
     get_global_search()
+<<<<<<< HEAD
    # session[ADMIN_SESSION_ID] = 2
+=======
+    #session[ADMIN_SESSION_ID] = 2
+>>>>>>> c4e2260e913d11df0f930265e88992f511f84b7b
     if check_login() == False:
         return redirect(url_for('adminlogin.login'))
     if hooks_auth(request.path) == False:
